@@ -9,7 +9,7 @@ void tlcpush(stack_t **head, unsigned int counter)
 {
 	int n, j = 0, flag = 0;
 
-	if (bus->arg)
+	if (bus.arg)
 	{
 		if (bus.arg[0] == '-')
 			j++;
